@@ -1,0 +1,7 @@
+body {
+    background-image: linear-gradient(to right, #7289DA, #9389DA);
+}
+h1 {
+    position: absolute;
+    left: 40%;
+}

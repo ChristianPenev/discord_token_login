@@ -1,0 +1,127 @@
+@keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff0000;
+    }
+    100% {
+      color: #6666ff;
+    }
+}
+body{
+    width: 450px;
+    height: 200px;
+    background: #36393F;
+    border-radius: 20px;
+}
+h1 {
+    color: white;
+    margin: none;
+}
+h2 {
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+}
+.button {
+    border-radius: 3px;
+    border: 0px solid #23272A;
+    width: 237px;
+    height: 25px;
+    color: white;
+    background-color: #5865F2;
+    transition-duration: 0.25s;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #4d4af3;
+}
+.input {
+    position: fixed;
+    top: 85px;
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.3);
+    height: 25px;
+    width: 230px;
+    transition-duration: 0.5s;
+}
+.input:hover {
+    border: 1px solid rgba(0,0,0,0.7); 
+}
+.input:focus {
+    color: white;
+    outline-color: rgb(0, 183, 255);
+    outline-style: solid;
+}
+a {
+    position: absolute;
+    top: 120px;
+    color: rgb(0, 183, 255);
+}
+img {
+    position: absolute;
+    left: 275px;
+    top: 20px;
+    width: 160px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+img:hover {
+    border-radius: 20px;
+}
+h3 {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+
+    
+}
+.developer {
+    position: absolute;
+    right: 70px;
+    top: 185px;
+    font-size: 16px;
+    animation: colorRotate .5s linear 0s infinite;
+}
+h3 {
+    position: absolute;
+    top: 170px;
+    /* bottom: 5px; */
+    font-size: 16px;
+}
+h4 {
+    position: absolute;
+    /* bottom: 0px; */
+    top: 165px;
+    margin: none;
+    left: 65px;
+    font-size: 16px;
+    color: white;
+}
+.show {
+    position: absolute;
+    background-color: #5865F2;
+    border-radius: 3px;
+    border: 0px solid #23272A;
+    width: 425px;
+    height: 50px;
+    left: 20px;
+    font-size: 20px;
+    top: 165px;
+    color: white;
+    background-color: #5865F2;
+    transition-duration: 0.25s;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
