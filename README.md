@@ -14,7 +14,7 @@ I am still developing this, so if you have any ideas dm me on discord: Christian
 - Opera
 - Safari
 ```
-# How to setup the extension in Google Chrome?
+# Instalation
 * Download or clone the repository to your computer
 * Extract the .zip file and open Google Chrome
 * In the URL bar type chrome://extensions
