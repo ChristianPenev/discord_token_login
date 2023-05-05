@@ -2,7 +2,7 @@
 ### This is a chrome extension that allows you to login to your Discord account or Discord bot with a their token.
 ![Extension image](https://media.discordapp.net/attachments/885216977398927360/887025101734809600/unknown.png)
 ```diff
-I am still developing this, so if you have any ideas dm me on discord: ChristianPenev#1513!
+I am still developing this, so if you have any ideas dm me on discord: ChristianPenev#8327!
 ```
 # Browser compatibility
 ```diff
